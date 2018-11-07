@@ -291,3 +291,7 @@ This is an online course.  The address to log in will be shared directly with re
   We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
+
+<hr>
+<h2> Registration </h2>
+Registration is via the form that may be found <a href="https://docs.google.com/forms/d/1wK4a2b4Q0Eq0_cYp4QrzlfXYFppnKqfRZSOErxmO6No">HERE</a>. Please come ready to participate fully both days. While there will be some lecture-based content this course is designed to be very interactive, especially on the second day.
