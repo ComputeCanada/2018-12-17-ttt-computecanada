@@ -14,7 +14,7 @@ enddate: 2018-12-18        # machine-readable end date for the workshop in YYYY-
 instructor: ["John Simpson"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["N/A"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: ["john.simpson@computecanada.ca"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-etherpad: https://pad.carpentries.org/2018-12-17-ttt-computecanada             # optional: URL for the workshop Etherpad if there is one
+etherpad: "https://pad.carpentries.org/2018-12-17-ttt-computecanada"             # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -97,12 +97,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 -->
 {% if page.latlng %}
 <p id="where">
-  <strong>Where:</strong>
-  {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+This is an online course.  The address to log in will be shared directly with registrants and posted here a week before the workshop.
 </p>
 {% endif %}
 
